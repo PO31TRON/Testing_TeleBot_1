@@ -105,13 +105,10 @@
         let order = document.getElementById("order");
         tg.expand();
 
-        buy.hasShineEffect();
-
         buy.addEventListener("click", () => {
             document.getElementById("main").style.display = "none";
             document.getElementById("form").style.display = "block";
         });
-        order.hasShineEffect();
 
         order.addEventListener("click", () => {
             tg.close();
